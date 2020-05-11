@@ -1,0 +1,87 @@
+
+#form-app{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    max-width: 50%;
+    width: 500px;
+    max-height: 50%;
+    height: 300px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 11px;
+    
+}
+
+#form-app #title {
+    margin-bottom: 25px;
+    margin-top: 43px;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+#form-app #form form .inputElements{
+    margin-bottom: 25px;
+    color: #4b4b4b;
+    
+
+
+}
+
+#form-app #form form .inputElements #inputUser{
+    padding: 12px;
+    width: 260px;
+    border-radius: 5px;
+    outline: none;
+    color: #4b4b4b;
+
+}
+
+#form-app #form form .inputElements #inputUser:not(:placeholder-shown){
+    border: solid 1px #6550b7;
+
+}
+
+#form-app #form form .inputElements #inputUser:placeholder-shown{
+    border: solid 0.6px  #4b4b4b;
+}
+
+#form-app #form form .btnLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#form-app #form form .btnLogin button{
+    background: #6550b7;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    color: #fff;
+    font-weight: bold;
+    width: 160px;
+    margin-bottom: 15px;
+    
+}
+
+#form-app #form form .btnLogin p #register{
+    font-weight: bold;
+    color: #6550b7;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+

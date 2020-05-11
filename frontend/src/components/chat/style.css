@@ -1,0 +1,49 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.container #historico_mensagens{
+    max-width: 50%;
+    width: 700px;
+    max-height: 50%;
+    height: 400px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 11px;
+
+}
+
+.container #chat{
+    width: 700px;
+    max-height: 50%;
+
+}
+
+.container #chat #texto_mensagem{
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    outline: none;
+    color: #4b4b4b;
+    
+
+}
+
+.container #chat #btn_msg{
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    color: #6550b7;
+    font-weight: bold;
+    width: 160px;
+    margin-bottom: 10px;
+   
+
+}

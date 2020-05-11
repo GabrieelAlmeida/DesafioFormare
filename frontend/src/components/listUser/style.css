@@ -1,0 +1,43 @@
+
+.appList{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+
+.appList .itemList{
+    
+    background: #fff;
+    color: #6550b7;
+    padding: 45px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.actions{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;   
+    margin-top: 30px;
+    
+}
+
+.actions button{
+    background: #fff;
+    color: #6550b7;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5em;
+
+
+}
